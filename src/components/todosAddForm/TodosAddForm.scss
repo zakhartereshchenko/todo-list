@@ -1,0 +1,32 @@
+label{
+    input[type=text]{
+        width: 20vw;
+        height: 4vh;
+        border: none;
+        border-radius: 8px;
+        background-color:#201F1F;
+        font-size: 2vh;
+        color:#F5F5F5;
+        padding: 1vh 1vw 1vh 1vw;
+    }
+    input[type=text]:focus {
+        outline: none;
+      }
+    button{
+        height: 6vh;
+        width: 7vw;
+        background-color:#00ffee;
+        font-size: 2vh;
+        color: #201F1F;
+        border: none;
+        border-radius: 8px;
+        transition: .1s;
+    }
+    button:hover{
+        background-color:#02ccbf;
+        transition: .1s;
+    }
+
+    display: flex;
+    justify-content: space-between;
+}
